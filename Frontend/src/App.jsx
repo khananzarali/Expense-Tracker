@@ -1,8 +1,13 @@
 function App(){
   return(
     <>
-    <h1>Home</h1>
+    <nav>
+      <Link to='/login'></Link>
+    </nav>
+    <Routes>
+      <Route path='/login'>Login</Route>
+    </Routes>
     </>
   )
 }
-export default App;
+export default App()
